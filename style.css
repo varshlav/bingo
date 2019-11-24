@@ -58,6 +58,9 @@ button {
     box-shadow: 0 1px #999;
 }
 
+.anim {
+    animation: colorchange 2s;
+}
 
 #message{
 margin: 30px;
@@ -73,4 +76,43 @@ h1{
     font-size: xx-large;
     text-align: center;
     color: blanchedalmond;
+}
+
+
+@keyframes colorchange {
+    10% {
+        background: white;
+    }
+
+    20% {
+        background: red;
+    }
+
+    30% {
+        background: white;
+    }
+
+    40% {
+        background: red;
+    }
+
+    50% {
+        background: white;
+    }
+
+    60% {
+        background: red;
+    }
+
+    70% {
+        background: white;
+    }
+
+    80% {
+        background: red;
+    }
+
+    90% {
+        background: white;
+    }
 }
